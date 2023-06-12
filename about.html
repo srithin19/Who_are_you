@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 15px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <img src= "C:\Users\Chillamcharla Sravya\Desktop\c codes\wt project\KNOW YOURSELF.jpg" width=150px> 
+  <h3>The Meyers-Briggs Type Indicator (MBTI) </h3>
+  <p>MBIT is a self help assessment test which helps people gain in sights about how they work and learn . It is a framework for relationship - building , developing positivism, and achieving excellence. 
+</p>
+</div>
+
+<h1 style="text-align:center">Our Team</h1>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Sri Harshini" style="width:100%">
+      <div class="container">
+        <h2>Sri Harshini</h2>
+        <p class="title">Project Lead</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>harshinimsri@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Bipin Yadav" style="width:100%">
+      <div class="container">
+        <h2>Bipin Yadav</h2>
+        <p class="title">Technical lead</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>bipinvipin7@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="Srithin" style="width:100%">
+      <div class="container">
+        <h2>Srithin </h2>
+        <p class="title">Technical lead</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>chillamcharlasrithin@gmail.com</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Srinith Reddy" style="width:100%">
+      <div class="container">
+        <h2>Srinith Reddy</h2>
+        <p class="title">User Acceptance Tester</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>srinithreddy2002@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Aasha Reddy" style="width:100%">
+      <div class="container">
+        <h2>Aasha Reddy</h2>
+        <p class="title"> Software Tester</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>aashareddy@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
